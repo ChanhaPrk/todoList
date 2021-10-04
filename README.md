@@ -13,6 +13,7 @@ http://www.yes24.com/Product/Goods/1970015
 =============
 1. oracle sql   
   subquery(http://wiki.gurubee.net/pages/viewpage.action?pageId=26744146)   
+  join(basic)(http://wiki.gurubee.net/pages/viewpage.action?pageId=26743902)
 3. java   
   chapter 1~2   
 4. math 
