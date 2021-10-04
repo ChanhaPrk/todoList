@@ -1,6 +1,3 @@
-# todoList
-해야할 공부가 많네요 ㅎㅎ
-
 *study material
 =============
 1. oracle sql 
@@ -12,8 +9,8 @@ http://www.yes24.com/Product/Goods/90533758?OzSrank=121
 http://www.yes24.com/Product/Goods/1970015
 이야기로 아주 쉽게 배우는 삼각함수
 
-   
-
+*to do ist
+=============
 1. oracle sql   
   subquery(http://wiki.gurubee.net/pages/viewpage.action?pageId=26744146)   
 3. java   
