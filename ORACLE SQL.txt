@@ -3,6 +3,13 @@ JOIN
 	2 테이블 A,B,C,D를 순서대로 join했다면, 옵티마이저( query 해석기 )는 다음과 같은 순서로 join을 수행한다   
 		(((A JOIN D) JOIN C ) JOIN B )   
 		A 테이블과 D 테이블과의 집합에서 C 테이블과 집합을 마지막으로 B 테이블과 집합을 만든다.   	
+	3 세개 이상의 JOIN 
+		1 JOIN의 대상 테이블이 4개라면, (JOIN)조건은 4-1 즉, 3개가 필요하다.
+			SELECT P.player_name, T.team_name, S.stadium_name
+			 FROM PLAYER P, TEAM T, STADIUM S		-- 테이블 3개
+			WHERE P.team_id = T.team_id		-- 조건 1
+			   AND T.stadium_id = S.stadium_id		-- 조건 2
+		        ORDER BY P.back_no;
 PL/SQL   
 	1 SQL은 "집합적"언이지만, PL/SQL은 "절차적"언어이다.   
 	2 하지만 완전히 새로운 언어는 아니며, SQL을 뿌리로 두고 있다.   
@@ -23,8 +30,8 @@ PL/SQL
 		1 예외처리를 하지 않을 경우 생략 할 수 있다.   
 	   끝알림 END;   
 	   출력	DBMS_OUTPUT.PUT_LINE( VALIDATION )   
-		SET SERVEROUTPUT ON     --출력 내용을 볼 수 있는 명력어   
-		SET TIMING ON                --수행 시간을 볼 수 있는 명력어   
+		SET SERVEROUTPUT ON     			--출력 내용을 볼 수 있는 명력어   
+		SET TIMING ON                			--수행 시간을 볼 수 있는 명력어   
 		DECLARE   
 			vi_num NUMBER;   
 		BEGIN   
@@ -40,8 +47,8 @@ PL/SQL 변수
 		DML의 정의부터 알아보자.   
 			SELECT, INSERT, UPDATE / MERGE INTO, DELETE, UNION / UNION ALL / INTERSECT / MINUS   
 		1 PL/SQL에서의 DML 사용   
-			SET SERVEROUTPUT ON     --출력 내용을 볼 수 있는 명력어   
-			SET TIMING ON                --수행 시간을 볼 수 있는 명력어   
+			SET SERVEROUTPUT ON     			--출력 내용을 볼 수 있는 명력어   
+			SET TIMING ON               			--수행 시간을 볼 수 있는 명력어   
 			DECLARE   
 				vs_player_name  VARCHAR2(100);   
 				vs_team_name    VARCHAR2(100);   
@@ -66,4 +73,4 @@ PL/SQL 변수
 	6 PRAGMA 키워드   
 	7 라벨
 
-	슈..수ㅠ...슈슉슉슈규슈슈.. 슈슉슛 슈X넘아...   
+	슈..수ㅠ...슈슉슉슈규슈슈.. 슈슉슈ㅠ슈ㅠㅠ슈슛ㅅㅅ........   
