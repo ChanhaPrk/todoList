@@ -1,4 +1,4 @@
-*study material
+*study sources.
 =============
 1. oracle sql 
 http://wiki.gurubee.net/pages/viewpage.action?pageId=26743251
