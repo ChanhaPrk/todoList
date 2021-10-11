@@ -64,4 +64,6 @@ PL/SQL 변수
 				vs_team_name   team.team_name%TYPE;   
    
 	6 PRAGMA 키워드   
-	7 라벨   
+	7 라벨
+
+	슈..수ㅠ...슈슉슉슈규슈슈.. 슈슉슛 슈X넘아...   
