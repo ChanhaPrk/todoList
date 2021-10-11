@@ -15,7 +15,7 @@ http://www.yes24.com/Product/Goods/1970015
 1. oracle sql   
   subquery(http://wiki.gurubee.net/pages/viewpage.action?pageId=26744146)   
   join(basic)(http://wiki.gurubee.net/pages/viewpage.action?pageId=26743902)   
-  PL/SQL(https://thebook.io/006696/part01/ch01/03/02/)   
+  PL/SQL(https://thebook.io/006696/part02/ch08/)   
 3. java   
   chapter 1~2   
 4. math 
